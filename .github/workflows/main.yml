@@ -19,3 +19,5 @@ jobs:
 
     
        ls -la
+   - name: Run linter on pull request 
+     run: echo Running linter
