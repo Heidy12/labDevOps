@@ -13,8 +13,6 @@ jobs:
      name: Analizamos el proyecto
    - name: Ejecutamos un comando
      run: echo Esta ejecutando el pipeline
-   - name: Instalar dependencias
-     run: npm install
    - name: Ejecutar pruebas
      run: npm test
    - name: Ejecutamos varias Lineas
